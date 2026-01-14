@@ -1,0 +1,3 @@
+[submodule "external/rust_fastmath"]
+	path = external/rust_fastmath
+	url = https://github.com/westNeighbor/rust_fastmath
