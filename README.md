@@ -183,7 +183,7 @@ If it’s useful to you, please consider support its development:
 
 | PayPal Link | PayPal QR Code| Alipay QR Code|
 |---------|---------|---------|
-| [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/westNeighbor) | <img src="resources/paypal_qrcode.png" width="150" > | <img src="resources/alipay_qrcode.jpg" width="150" > |
+| [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/eastNeighbor) | <img src="resources/paypal_qrcode.png" width="150" > | <img src="resources/alipay_qrcode.jpg" width="150" > |
 
 
 Thank you for your support!
