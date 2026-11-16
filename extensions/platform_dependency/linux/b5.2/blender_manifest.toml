@@ -1,0 +1,66 @@
+schema_version = "1.0.0"
+
+# Example of manifest file for a Blender extension
+# Change the values according to your extension
+id = "blender_math_anim"
+version = "1.2.3"
+name = "Math Anim"
+tagline = "This is a blender addon for math explainary with animation"
+maintainer = "Minghui Zhao <zhaominghui2011@gmail.com>"
+# Supported types: "add-on", "theme"
+type = "add-on"
+
+# Optional: add-ons can list which resources they will require:
+# * "files" (for access of any filesystem operations)
+# * "network" (for internet access)
+# * "clipboard" (to read and/or write the system clipboard)
+# * "camera" (to capture photos and videos)
+# * "microphone" (to capture audio)
+# permissions = ["files", "network"]
+
+# Optional link to documentation, support, source files, etc
+website = "https://github.com/westNeighbor/Blender_math_anim"
+
+# Optional list defined by Blender and server, see:
+# https://docs.blender.org/manual/en/dev/extensions/tags.html
+tags = ["3D View", "Animation", "Geometry Nodes", "Grease Pencil"]
+
+blender_version_min = "5.2.0"
+# Optional: maximum supported Blender version
+#blender_version_max = "5.1.99"
+
+# License conforming to https://spdx.org/licenses/ (use "SPDX: prefix)
+# https://docs.blender.org/manual/en/dev/extensions/licenses.html
+license = [
+    "SPDX:GPL-2.0-or-later",
+]
+# Optional: required by some licenses.
+copyright = [
+    "2025-2026 Minghui Zhao",
+]
+
+# Optional list of supported platforms. If omitted, the extension will be available in all operating systems.
+# platforms = ["windows-amd64", "macos-arm64", "linux-x86_64"]
+# Other supported platforms: "windows-arm64", "macos-x86_64"
+
+# Optional: bundle 3rd party Python modules.
+# https://docs.blender.org/manual/en/dev/extensions/python_wheels.html
+wheels = [
+    "./wheels/pymupdf-1.27.2.2-cp310-abi3-manylinux_2_28_x86_64.whl",
+    "./wheels/fonttools-4.62.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",  
+    "./wheels/typst-0.14.1-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "./wheels/asteval-1.0.6-py3-none-any.whl",
+    "./wheels/numexpr-2.14.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+    "./wheels/rust_fastmath-0.1.0-cp313-cp313-manylinux_2_35_x86_64.whl",
+    "./wheels/pydiffsol-0.5.0-cp39-abi3-manylinux_2_28_x86_64.whl",
+]
+
+# Optional: build setting.
+# https://docs.blender.org/manual/en/dev/extensions/command_line_arguments.html#command-line-args-extension-build
+#[build]
+#paths_exclude_pattern = [
+#    ".gitignore",    # Exclude gitignore
+#    "*.zip",         # Exclude *.zip
+#    "/.git/",
+#    "__pycache__/",
+#]
